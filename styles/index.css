@@ -106,13 +106,13 @@ nav ul li a {
   margin: 85px 0 130px;
 }
 
-.feature .feature-image {
+.feature .feature-group-image {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
-.feature .feature-image img {
+.feature .feature-group-image img {
   width: 100%;
 }
 
@@ -134,4 +134,37 @@ nav ul li a {
 
 .feature .feature-description .description {
   margin-bottom: 32px;
+}
+
+/* our-feature section styles  */
+.our-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 55px;
+}
+
+.feature-main-image img {
+  width: 100%;
+}
+
+.feature-main-image .btn-over-img {
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+  width: 250px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-main-image .btn-over-img h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.feature-main-image .btn-over-img p {
+  font-size: 25px;
+  font-weight: 500;
 }
