@@ -1,0 +1,137 @@
+/* import::google fonts font  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+/* basic common styles  */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.full-wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.description {
+  color: #727272;
+}
+
+.primary-btn {
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+
+.primary-color {
+  color: #ff900e;
+}
+
+/* header section styles  */
+header {
+  padding: 50px 0;
+  background-color: #ff8f0e2a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #727272;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* banner section styles  */
+.banner .banner-description {
+  margin: 115px 0 50px;
+  text-align: center;
+}
+
+.banner .banner-title {
+  color: #000;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.banner .banner-description .description {
+  margin-bottom: 32px;
+}
+
+.banner .banner-image img {
+  width: 100%;
+}
+
+/* feature section styles */
+.feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 73px;
+  align-items: center;
+  margin: 85px 0 130px;
+}
+
+.feature .feature-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature .feature-image img {
+  width: 100%;
+}
+
+.feature-title {
+  color: #727272;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.feature-title .color-black {
+  color: #000;
+  font-weight: 700;
+}
+
+.feature-title .primary-color {
+  font-weight: 700;
+}
+
+.feature .feature-description .description {
+  margin-bottom: 32px;
+}
