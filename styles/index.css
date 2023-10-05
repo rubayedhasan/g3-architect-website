@@ -198,3 +198,59 @@ nav ul li a {
   font-size: 25px;
   font-weight: 500;
 }
+
+/* fact section styles  */
+.facts {
+  margin-bottom: 140px;
+}
+
+.fact-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.fact-item-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.fact-item {
+  padding: 30px 25px;
+  border: 3px solid #ff900e;
+  border-radius: 10px;
+}
+
+.fact-item:hover {
+  background: linear-gradient(215deg, #e1dab0, #fad179, #87e4a8);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+.item-title {
+  color: #000;
+  font-size: 45px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.item-description {
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
