@@ -234,9 +234,11 @@ nav ul li a {
   padding: 30px 25px;
   border: 3px solid #ff900e;
   border-radius: 10px;
+  transition: all 2s;
 }
 
 .fact-item:hover {
+  transform: rotate(-60deg) translateY(50px);
   background: linear-gradient(215deg, #e1dab0, #fad179, #87e4a8);
   background-size: 180% 180%;
   animation: gradient-animation 12s ease infinite;
@@ -253,4 +255,27 @@ nav ul li a {
   color: #727272;
   font-size: 20px;
   font-weight: 600;
+}
+
+/* our-sponsor section styles  */
+.our-sponsor {
+  text-align: center;
+}
+
+.sponsor-title {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.sponsor-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsor img {
+  filter: grayscale(100%);
+  width: 100%;
 }
