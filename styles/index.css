@@ -365,6 +365,10 @@ footer {
     justify-items: center;
   }
 
+  .hide {
+    display: block;
+  }
+
   .feature-main-image .btn-over-img {
     right: 0;
   }
@@ -375,6 +379,7 @@ footer {
   }
 
   .sponsor-container {
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
@@ -448,6 +453,7 @@ footer {
   .sponsor-container {
     gap: 25px;
     flex-direction: column;
+    align-items: center;
   }
 
   .sponsor img {
