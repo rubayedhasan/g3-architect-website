@@ -292,6 +292,49 @@ footer {
 }
 
 /* responsive styles */
+
+/* responsive styles for small devices */
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .banner .banner-description {
+    margin: 100px 0 35px;
+  }
+
+  .feature {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+
+  .our-features {
+    grid-template-columns: 1fr;
+    grid-row-gap: 55px;
+    justify-items: center;
+  }
+
+  .feature-main-image .btn-over-img {
+    right: 0;
+  }
+
+  .fact-item-container {
+    gap: 25px;
+    flex-direction: column;
+  }
+
+  .sponsor-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+
+/* responsive styles for extra small devies  */
 @media screen and (max-width: 575px) {
   .container {
     width: 100%;
