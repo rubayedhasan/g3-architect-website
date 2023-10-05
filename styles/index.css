@@ -293,6 +293,41 @@ footer {
 
 /* responsive styles */
 
+/* responsive styles for medium devices */
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .hide {
+    display: none;
+  }
+  .our-features {
+    grid-template-columns: 1fr;
+  }
+
+  .fact-item-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .sponsor-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+
+  .sponsor {
+    width: 40%;
+  }
+}
+
 /* responsive styles for small devices */
 @media screen and (max-width: 767px) {
   .container {
