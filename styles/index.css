@@ -389,7 +389,8 @@ footer {
 /* responsive styles for extra small devies  */
 @media screen and (max-width: 575px) {
   .container {
-    width: 100%;
+    width: 90%;
+    padding: 0 10px;
   }
   nav,
   nav ul {
